@@ -1,4 +1,4 @@
-# Azure
+# Azure Service Principle
 
 ## Steps to create a Service Principle in AZURE 
 
