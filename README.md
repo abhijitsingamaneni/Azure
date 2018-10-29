@@ -138,3 +138,24 @@ If you don't have azure cli installed on your machine got to this link(https://d
 ```
 
 2.Record the `appId` for future use
+
+### Step 4: Create and Configure a Service Principal
+
+1.Use the following commad to create a service principal
+
+```azure ad sp create --id appId```
+
+2.Adding role to service principle 
+
+```az role assignment create --assignee appId --role "Contributor" --subscription Subscription_ID```
+
+### Step 5: Verify Your Service Principal
+
+1.log in using service principle to the azure and test you code
+
+```az login --service-principal -u xxxx-xxxxxx-xxxx-xxxx-xxx -p password --tenant xxx-xxxx-xxxx-xxx-xxxxx```
+
+2.You can use UI also to get clientID, TenantId
+
+
+
