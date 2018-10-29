@@ -157,5 +157,5 @@ If you don't have azure cli installed on your machine got to this link(https://d
 
 2.You can use UI also to get clientID, TenantId
 
-
+![UI](https://github.com/abhijitsingamaneni/Azure/blob/master/images/Screen%20Shot%202018-10-28%20at%207.20.26%20PM.png)
 
